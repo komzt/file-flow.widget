@@ -3,10 +3,10 @@
 **English** · [Español](#español)
 
 A desktop widget for [Übersicht](https://tracesof.net/uebersicht/) (macOS) that shows **which files changed, where and when**.
-> Personal project, shared as-is with no support. Built with help from Claude.
+> Personal project, shared as-is with no support for now. Built with help from Google AI Studio.
 
 ## What it shows
-<video src="preview.mov" autoplay loop muted playsinline width="100%">
+<video src="https://github.com/user-attachments/assets/b2a446e0-112a-494d-a773-b28d1d564ea6" autoplay loop muted playsinline width="100%">
 </video>
 
 - **One row per folder**, with its latest 25 files as bubbles (size = file size).
@@ -86,11 +86,11 @@ To hide the synced block, point `syncDir` to a folder that doesn't exist.
 
 [English](#file-flow) · **Español**
 
-Widget de escritorio para [Übersicht](https://tracker.felixhageloh.de/) (macOS) que muestra **qué archivos cambiaron, dónde y cuándo**.
+Widget de escritorio para [Übersicht](https://tracesof.net/uebersicht/) (macOS) que muestra **qué archivos cambiaron, dónde y cuándo**.
 
 ![captura](docs/screenshot.png)
 
-> Proyecto personal, compartido tal cual y sin soporte. Hecho con ayuda de Claude.
+> Proyecto personal, compartido tal cual y sin soporte de momento. Hecho con ayuda de Google AI Studio.
 
 ## Qué muestra
 
