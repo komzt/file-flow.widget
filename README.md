@@ -2,14 +2,11 @@
 
 **English** · [Español](#español)
 
-A desktop widget for [Übersicht](https://tracker.felixhageloh.de/) (macOS) that shows **which files changed, where and when**.
-
-![screenshot](docs/screenshot.png)
-
+A desktop widget for [Übersicht](https://tracesof.net/uebersicht/) (macOS) that shows **which files changed, where and when**.
 > Personal project, shared as-is with no support. Built with help from Claude.
 
 ## What it shows
-<video src="https://github.com/komzt/file-flow.widget/blob/main/preview.mov" autoplay loop muted playsinline width="100%">
+<video src="preview.mov" autoplay loop muted playsinline width="100%">
 </video>
 
 - **One row per folder**, with its latest 25 files as bubbles (size = file size).
@@ -33,7 +30,7 @@ Interaction: click a file or a panel item to reveal it in Finder. Click a folder
    ```bash
    cp -R file-flow.widget ~/Library/Application\ Support/Übersicht/widgets/
    ```
-3. Edit `index.jsx` and change `CONFIG` (see below).
+3. Edit `file-flow.jsx` and change `CONFIG` (see below).
 4. Übersicht reloads the widget on save. If not, use *Refresh All Widgets*.
 
 ### Permissions
@@ -42,7 +39,7 @@ Interaction: click a file or a panel item to reveal it in Finder. Click a folder
 
 ## Configuration
 
-Everything is at the top of `index.jsx`, in the `CONFIG` object:
+Everything is at the top of `file-flow.jsx`, in the `CONFIG` object:
 
 | Option | What it does |
 |---|---|
@@ -118,7 +115,7 @@ Interacción: clic en un archivo o en el panel para mostrarlo en Finder. Clic en
    ```bash
    cp -R file-flow.widget ~/Library/Application\ Support/Übersicht/widgets/
    ```
-3. Edita `index.jsx` y cambia `CONFIG` (ver abajo).
+3. Edita `file-flow.jsx` y cambia `CONFIG` (ver abajo).
 4. Übersicht recarga el widget al guardar. Si no, usa *Refresh All Widgets*.
 
 ### Permisos
@@ -127,7 +124,7 @@ Interacción: clic en un archivo o en el panel para mostrarlo en Finder. Clic en
 
 ## Configuración
 
-Todo está al inicio de `index.jsx`, en el objeto `CONFIG`:
+Todo está al inicio de `file-flow.jsx`, en el objeto `CONFIG`:
 
 | Opción | Qué hace |
 |---|---|
