@@ -9,6 +9,8 @@ A desktop widget for [Übersicht](https://tracker.felixhageloh.de/) (macOS) that
 > Personal project, shared as-is with no support. Built with help from Claude.
 
 ## What it shows
+<video src="https://github.com/komzt/file-flow.widget/blob/main/preview.mov" autoplay loop muted playsinline width="100%">
+</video>
 
 - **One row per folder**, with its latest 25 files as bubbles (size = file size).
 - **Horizontal axis = age**, logarithmic: further right means more recent.
